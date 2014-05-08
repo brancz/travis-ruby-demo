@@ -6,3 +6,4 @@ script:
 notifications:
   webhooks:
     - http://travify.herokuapp.com/webhook/travis
+    - http://hubot-james.herokuapp.com/hubot/travis?room=%23kreisverkehr&type=groupchat
